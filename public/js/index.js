@@ -8,7 +8,7 @@
   let SOCKET = null;
 
   function _initialize() {
-    SOCKET = io();
+    SOCKET = io("http://localhost:3000");
     _registerButtonClick();
     _registerOnNewMessage();
   }
