@@ -1,0 +1,11 @@
+{
+  "scripts" : {
+    "start" : "nodemon --harmony app.js"
+  },
+  "dependencies" : {
+    "express" : "*",
+    "socket.io" : "*",
+    "node-tweet-stream" : "*",
+    "dotenv" : "*"
+  }
+}
