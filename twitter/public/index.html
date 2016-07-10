@@ -1,7 +1,24 @@
 <html>
   <body>
+    <link rel="stylesheet" href="css/tweet.css">
+
+    <template id="tweetTemplate">
+      <blockquote class="twitter-tweet" data-link-color="#55acee" lang="es">
+        <p lang="en" id="tweetText">just setting up my twttr</p>
+        - <span id="author">Jack Dorsey (@jack)</span>
+        <a id="tweetLink" href="https://twitter.com/jack/status/20">
+          <span id="tweetDate">marzo 21, 2006</span>
+        </a>
+      </blockquote>
+    </template>
 
     <h1>Twitter App</h1>
+
+    <div id="tweet-container">
+      <ul>
+
+      </ul>
+    </div>
 
     <script src="/socket.io/socket.io.js"></script>
     <script src="js/index.js"></script>
