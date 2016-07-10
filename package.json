@@ -1,0 +1,15 @@
+{
+  "name": "manishmulani",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --harmony app.js"
+  },
+  "author": "Manish Mulani",
+  "license": "ISC",
+  "dependencies" : {
+    "express" : "*",
+    "socket.io" : "*"
+  }
+}

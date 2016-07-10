@@ -1,0 +1,16 @@
+<html>
+<body>
+  <h1>Hello World</h1>
+  <input type="text" id="message"></input>
+  <button id="submit">Send Message</button>
+</body>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/index.js"></script>
+<script>
+  "use strict";
+  window.addEventListener("load", function() {
+    socketApp.initialize();
+  });
+</script>
+</html>
